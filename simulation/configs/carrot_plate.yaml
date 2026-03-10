@@ -1,0 +1,43 @@
+task_name: carrot_plate
+background:
+  asset: outputs/background-asset/point_cloud/iteration_30000/scene_gs_abs.ply
+robot:
+  genesis_asset: xml/franka_emika_panda/panda.xml
+  urdf_asset: assets/fr3/fr3.urdf
+  robot_to_table_height: 1.58 # cm
+  close_thres: 1.0 #cm
+object_active:
+  asset: outputs/carrot-asset/object.urdf
+  mesh_asset: outputs/carrot-asset/mesh_w_vertex_color_abs.ply
+  pos_range:
+    x: [42.0, 82.0] # cm
+    y: [-25.0, 15.0] # cm
+  aabb_range:
+    x: [42.0, 82.0] # cm
+    y: [-25.0, 15.0] # cm
+  default_position:
+    x: 62.0 # cm
+    y: -15.0 # cm
+  up_axis: z
+  height_thres: 0.4 # cm
+  motion_1_height: 20 # cm
+  skill_1_height: 6.2 # cm
+  motion_2_height: 20 # cm
+  skill_2_height: 12 # cm
+object_passive:
+  asset: outputs/pink-asset/object.urdf
+  mesh_asset: outputs/pink-asset/mesh_w_vertex_color_abs.ply
+  pos_range:
+    x: [42.0, 82.0] # cm
+    y: [-25.0, 15.0] # cm
+  aabb_range:
+    x: [42.0, 82.0] # cm
+    y: [-25.0, 15.0] # cm
+  default_position:
+    x: 62.0 # cm
+    y: 5.0 # cm
+  up_axis: z
+
+far_threshold: 0.15
+near_threshold: 0.08
+collision_detection: True

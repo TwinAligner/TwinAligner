@@ -1,0 +1,29 @@
+[submodule "reconstruction/nerfstudio"]
+	path = reconstruction/nerfstudio
+	url = https://github.com/TwinAligner/nerfstudio.git
+[submodule "reconstruction/sdfstudio"]
+	path = reconstruction/sdfstudio
+	url = https://github.com/TwinAligner/sdfstudio.git
+[submodule "reconstruction/pgsr"]
+	path = reconstruction/pgsr
+	url = https://github.com/TwinAligner/pgsr.git
+[submodule "reconstruction/nerfacc_nerfstudio"]
+	path = reconstruction/nerfacc_nerfstudio
+	url = https://github.com/TwinAligner/nerfacc.git
+	branch = nerfstudio
+[submodule "reconstruction/nerfacc_sdfstudio"]
+	path = reconstruction/nerfacc_sdfstudio
+	url = https://github.com/TwinAligner/nerfacc.git
+	branch = sdfstudio
+[submodule "simulation/FoundationPose++"]
+	path = simulation/FoundationPose++
+	url = https://github.com/TwinAligner/foundationpose-plus-plus.git
+[submodule "simulation/curobo"]
+	path = simulation/curobo
+	url = https://github.com/NVlabs/curobo.git
+[submodule "simulation/anygrasp_sdk"]
+	path = simulation/anygrasp_sdk
+	url = https://github.com/graspnet/anygrasp_sdk.git
+[submodule "simulation/XRoboToolkit-PC-Service-Pybind"]
+	path = simulation/XRoboToolkit-PC-Service-Pybind
+	url = https://github.com/XR-Robotics/XRoboToolkit-PC-Service-Pybind.git

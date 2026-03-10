@@ -1,0 +1,1 @@
+uv pip install -e simulation/curobo --no-build-isolation --verbose
