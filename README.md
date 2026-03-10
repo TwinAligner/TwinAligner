@@ -90,7 +90,7 @@ bash pipelines/background_assetize.sh -i examples/background -t <your-timestamp>
 
 #### Data Collection
 
-<!-- Please refer to [twinaligner_traj_recorder](). -->
+Please refer to [twinaligner_traj_recorder](https://github.com/TwinAligner/twinaligner_traj_recorder).
 
 To download the example data:
 
