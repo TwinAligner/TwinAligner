@@ -182,7 +182,7 @@ bash pipelines/start_auto_collect_daemon.sh
 bash pipelines/render_data.sh
 ```
 
-### Open-source Plan
+## Open-source Plan
 
 - [x] Visual Reconstruction
 - [x] Viewpoint Alignment
