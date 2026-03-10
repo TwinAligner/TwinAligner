@@ -44,7 +44,7 @@ This repository contains the official implementation of [TwinAligner: Visual-Dyn
 - Compatible with Ubuntu 20.04 / 22.04, CUDA 12.1, and GCC 11.4.
 
 ```bash
-git clone --branch opensource --recurse-submodules https://github.com/TwinAligner/TwinAligner.git
+git clone --recurse-submodules https://github.com/TwinAligner/TwinAligner.git
 
 conda create -n twinaligner -y python=3.10
 conda activate twinaligner
