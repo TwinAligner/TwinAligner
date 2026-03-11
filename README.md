@@ -17,6 +17,13 @@
   <a href="https://ha0tang.github.io/">Hao Tang</a>,
   <a href="https://zsdonghao.github.io/">Hao Dong</a>
 </p>
+<p>
+  <span><sup>1</sup>CFCS, School of Computer Science, Peking University,</span>
+  <span><sup>2</sup>PKU-AgiBot Lab,</span>
+</p>
+<p>
+  <span><sup>3</sup>State Key Laboratory of Multimedia Information Processing, School of Computer Science, Peking University</span>
+</p>
 </div>
 <div align="center">
 (* indicates equal contribution)
